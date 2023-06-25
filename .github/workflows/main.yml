@@ -1,8 +1,8 @@
-name: Test multiple Python versions
+name: Test multiple Python Versions
 on: [push]
 jobs:
   build:
-    runs-on: ubuntu-lates
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         python-version: [3.7, 3.8, 3.9]
