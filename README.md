@@ -1,3 +1,4 @@
+[![Test multiple Python Versions](https://github.com/endybits/python-devops/actions/workflows/main.yml/badge.svg)](https://github.com/endybits/python-devops/actions/workflows/main.yml)
 # python-devops (Guide)
 From scratch repository up to doing Python DevOps work.
 
