@@ -16,7 +16,7 @@ Cloud-based Dev environments:
 * Microservice
 
 1. Create virtualenv `python -m venv ~/.venv`
-2. Edit my `~/.bashrc`: to run virtuaenv every time the terminal is opened, including the code `source ~/venv/bin/activate` in the last line.
+2. Edit my `~/.bashrc` to run virtuaenv every time the terminal is opened: including the code `source ~/venv/bin/activate` in the last line.
 
 #### AWS CloudShell
 #### AWS Cloud9
