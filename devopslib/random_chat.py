@@ -1,11 +1,9 @@
 from random import choices
 
+text = "This is a text to test the function only for this reason nothing more cheers".lower()
+text_list = text.split(' ')
 def get_word():
-    text = "This is a text to test the function only for this reason nothing more cheers"
-    text_list = text.split(' ')
-    
-    return choices(text_list)[0].title()
-
+    return choices(text_list)[0]
 
 ## make lint
 #var = 1
