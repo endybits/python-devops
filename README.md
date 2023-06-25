@@ -19,7 +19,14 @@ Cloud-based Dev environments:
 2. Edit my `~/.bashrc` to run virtuaenv every time the terminal is opened: including the code `source ~/venv/bin/activate` in the last line.
 
 #### AWS CloudShell
+
 #### AWS Cloud9
+To clone your repo here you need to create a ssh-keygen `ssh-keygen -t rsa` and include the public key in your github settings. 
+Also, you need to create your own virtualenv because the default virtual virtualenv of cloud9 has many dependencies that you won't require in your project.
+
+1. Create virtualenv `python3 -m venv ~/.venv`
+2. Edit my `~/.bashrc` to run virtuaenv every time the terminal is opened: including the code `source ~/venv/bin/activate` in the last line.
+
 
 ### Command-line tools
 ### Microservices
